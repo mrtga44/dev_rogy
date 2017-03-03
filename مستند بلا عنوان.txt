@@ -1,0 +1,17 @@
+﻿local text = "#المہٰطہٰور"
+local link = "https://t.me/xl16lx"
+local inline_text = "اضغط هنا"
+
+
+local keyboard = {}
+keyboard.inline_keyboard = {
+{
+{text = inline_text, url = link},
+},
+}
+send_api_keyboard(msg, get_receiver_api(msg), text, keyboard)
+end
+
+
+by #روجہٰہٰيے
+ch: @II_DEV_II
